@@ -45,3 +45,17 @@ export async function pingCounter(counter) {
 export function formatNumber(x) {
   return x || x === 0 ? x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : '';
 }
+
+
+export function pluralize(number, singular, plural=null){
+  if (parseFloat(number) === 1.0) {
+    return number + ' ' + singular;
+  }
+  else {
+    if (!plural) {
+      plural = singular + 's';
+    }
+
+    return formatNumber(number) + ' ' + plural;
+  }
+};

@@ -44,11 +44,6 @@
       animation: fade-in .3s;
     }
   }
-
-  .btn-cta {
-    animation: pulse 3s;
-    animation-delay: 5s;
-  }
 }
 </style>
 
@@ -76,7 +71,7 @@
         <textarea v-model="comments" ref="comments"></textarea>
         <a href="#" class="clear btn" @click="clearComments()">{{ $lt('clear_button') }}</a>
       </div>
-      <button class="btn btn-block btn-large btn-cta" :disabled="isSending">
+      <button class="btn btn-block btn-large btn-cta pulse" :disabled="isSending">
         <span v-if="isSending">{{ $lt('loading_button') }}</span>
         <span v-else>{{ $lt('cta_button') }}</span>
       </button>

@@ -52,8 +52,11 @@ html {
   @include mobile {
     font-size: 52.5%;
   }
-}
 
+  @media only screen and (max-height: 700px) {
+    font-size: 52.5%;
+  }
+}
 
 #app {
   height: 100vh;
@@ -226,6 +229,11 @@ $step: 6%;
   background: linear-gradient(106deg, rgba(62,147,218,1) 0%, rgba(148,53,224,1) 29%, rgba(241,99,90,1) 79%, rgba(254,91,47,1) 100%);
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 
+  &.pulse {
+    animation: pulse 3s;
+    animation-delay: 5s;
+  }
+
   &:hover {
     animation: cta-hover .2s;
     animation-fill-mode: forwards;
@@ -281,7 +289,7 @@ hr {
 }
 
 form {
-  margin: 3rem 0;
+  margin: 3rem 0 0;
 
   .flex-row {
     display: flex;

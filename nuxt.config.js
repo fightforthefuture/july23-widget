@@ -62,5 +62,6 @@ module.exports = {
     { src: '~/plugins/analytics.js', ssr: false },
     '~/plugins/i18n.js',
     '~/plugins/org-rotation.js',
+    '~/plugins/filters.js',
   ]
 }
