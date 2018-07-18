@@ -44,6 +44,12 @@
       animation: fade-in .3s;
     }
   }
+
+  // .counter {
+  //   width: 50.8rem;
+  //   margin: auto;
+  //   text-align: left;
+  // }
 }
 </style>
 
@@ -52,7 +58,8 @@
     <NavHeader />
     <h1 class="headline">
       <small>{{ $lt('top_headline') }}</small>
-      <countTo :startVal="100000000" :endVal="amount" :duration="3000" prefix="$" :autoplay="false" class="counter" ref="counter"></countTo>
+<!--       <countTo :startVal="100000000" :endVal="amount" :duration="3000" prefix="$" :autoplay="false" class="counter" ref="counter"></countTo> -->
+      <div class="counter pulse">${{ amount | formatNumber }}</div>
       {{ $lt('bottom_headline') }}
     </h1>
     <div class="body" v-html="$lt('body_html')"></div>
@@ -88,7 +95,7 @@
 import { mapState } from 'vuex'
 import { formatNumber, pingCounter, sendToMothership } from '~/assets/js/helpers'
 import axios from 'axios'
-import countTo from 'vue-count-to'
+// import countTo from 'vue-count-to'
 import NavHeader from '~/components/NavHeader'
 
 // battle-for-the-net-action-4
@@ -96,7 +103,7 @@ const petitionId = '25488448-4124-4359-8873-d1ef731ea5f4'
 
 export default {
   components: {
-    countTo,
+    // countTo,
     NavHeader
   },
 
