@@ -14,7 +14,8 @@
     "precommit": "npm run lint",
     "generate-strings": "node scripts/generate-strings.js",
     "pregenerate": "npm run generate-strings",
-    "predev": "npm run generate-strings"
+    "predev": "npm run generate-strings",
+    "deploy": "aws s3 sync dist s3://july23.battleforthenet.com --acl public-read --delete"
   },
   "dependencies": {
     "nuxt": "^1.0.0"
