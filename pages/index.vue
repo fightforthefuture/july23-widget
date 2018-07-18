@@ -196,11 +196,11 @@ export default {
     }
   },
 
-  mounted() {
-    setTimeout(() => {
-      this.$refs.counter.start()
-    }, 600)
-  },
+  // mounted() {
+  //   setTimeout(() => {
+  //     this.$refs.counter.start()
+  //   }, 600)
+  // },
 
   methods: {
     $lt(key, vars={}) {
