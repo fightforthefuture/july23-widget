@@ -12,7 +12,7 @@
   var alwaysShow = !!(opts.alwaysShow || window.location.hash.indexOf('ALWAYS_SHOW_WIDGET') !== -1);
   var disableGoogleAnalytics = !!opts.disableGoogleAnalytics;
   var disableDonations = !!opts.disableDonations;
-  var iframeHost = opts.iframeHost !== undefined ? opts.iframeHost : 'https://june11.battleforthenet.com';
+  var iframeHost = opts.iframeHost !== undefined ? opts.iframeHost : 'https://july23.battleforthenet.com';
   var language = 'en';
 
   // spanish is specified or no language is set and browser is set to spanish
