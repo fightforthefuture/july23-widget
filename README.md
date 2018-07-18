@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/fightforthefuture/july23-widget/tree/master.svg?style=svg)](https://circleci.com/gh/fightforthefuture/july23-widget/tree/master)
+
+
 # July 23, 2018 Widget
 
 This is the source code for Battle for the Net's July 23 day of action widget. Net neutrality was repealed, but the fight has just begun. [Click here to learn more.](https://www.battleforthenet.com/)
