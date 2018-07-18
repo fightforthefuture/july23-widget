@@ -1,0 +1,38 @@
+{
+  "name": "july23-widget",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Ken Mickles <ken@37i.net>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "analyze": "nuxt build --analyze",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "generate-strings": "node scripts/generate-strings.js",
+    "pregenerate": "npm run generate-strings",
+    "predev": "npm run generate-strings"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "js-yaml": "^3.12.0",
+    "node-sass": "^4.9.2",
+    "nuxt-sass-resources-loader": "^2.0.2",
+    "sass-loader": "^7.0.3",
+    "showdown": "^1.8.6",
+    "vue-count-to": "^1.0.13",
+    "vue-i18n": "^8.0.0",
+    "yaml-loader": "^0.5.0"
+  }
+}

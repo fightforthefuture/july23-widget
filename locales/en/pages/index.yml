@@ -1,0 +1,27 @@
+top_headline: Big Cable spent
+amount: "102248987"
+bottom_headline: to kill net neutrality
+body_html: |
+  Your Internet provider wants to control what you see and do online with censorship, throttling, and expensive new fees. And they're spending millions to buy off Congress to make sure they can. **Add your name calling on lawmakers to restore net neutrality, and find out if your rep was bought.**
+name_placeholder: Name*
+email_placeholder: Email*
+address_placeholder: Address*
+zip_placeholder: ZIP*
+phone_placeholder: "Phone # (Optional)"
+default_comment: |
+  Last December's FCC vote to destroy the net neutrality protections cannot stand.
+
+  I’m calling on you to work with your colleagues to use the Congressional Review Act to pass a "resolution of disapproval" reversing the FCC's vote.
+
+  The FCC's December decision willfully ignored the outcry of tens of millions of people, and it abdicated the FCC's responsibility to protect the internet from ISP blocking and discrimination. The FCC has injured our economy and free speech in just one action, all without so much as a single public hearing.
+
+  We need members of Congress to stand up for the open internet and for the digital rights of their constituents now. Please co-sponsor, sign the discharge petition for, and vote for the CRA Resolution of Disapproval that would overturn the FCC's December "Restoring Internet Freedom" vote.
+
+  Thank you.
+clear_button: Clear Letter
+cta_button: Contact Congress
+loading_button: Saving...
+disclaimer_html: <a href="{orgLink}" target="_blank">{orgName}</a> will email you updates, and you can unsubscribe at any time.  If you enter your number, message & data rates will apply. Text STOP anytime. <a href="https://www.battleforthenet.com/privacy/" target="_blank">Privacy Policy</a>
+close_button: No thanks, I don't want to take action
+an_petition_id: e31d4d82-9fac-4cf0-882e-96bc565e1f25
+action_comment: Please co-sponsor, sign the discharge petition, and vote for the CRA to restore net neutrality.

@@ -1,0 +1,15 @@
+$body-font: "Open Sans", sans-serif;
+$title-font: "Poppins", $body-font;
+$background-color: rgba(220, 5, 5, 0.5);
+$border-radius: 4px;
+$button-color: #000;
+$facebook-blue: #3C5A96;
+$twitter-blue: #2ecbf8;
+$light-red: #ff0101;
+$dark-red: #bc0000;
+
+@mixin mobile {
+  @media only screen and (max-device-width: 480px) {
+    @content;
+  }
+}
