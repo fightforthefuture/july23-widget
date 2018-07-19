@@ -20,7 +20,7 @@ If you have any problems or questions regarding the widget, please [submit an is
 
 ## How it works
 
-The goal of this project is to allow anyone with a web site to run their own campaign to save net neutrality. Simply add one line of JavaScript and you're good to go! The modal animation will show up front-and-center on your page, prompting visitors to contact Congress and the FCC.
+The goal of this project is to allow anyone with a web site to run their own campaign to save net neutrality. The modal animation will show up front-and-center on your page, prompting visitors to contact Congress without leaving your site.
 
 ![A screenshot of the widget](https://www.battleforthenet.com/images/july-23-widget-screenshot.jpg)
 
