@@ -98,8 +98,8 @@ import axios from 'axios'
 // import countTo from 'vue-count-to'
 import NavHeader from '~/components/NavHeader'
 
-// battle-for-the-net-action-4
-const petitionId = '25488448-4124-4359-8873-d1ef731ea5f4'
+// https://actionnetwork.org/petitions/july-23rd
+const petitionId = '1c27cd93-46e6-4d1b-b706-9e3de6ed4ecb'
 
 export default {
   components: {
