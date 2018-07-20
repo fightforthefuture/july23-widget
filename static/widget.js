@@ -13,12 +13,6 @@
   var disableGoogleAnalytics = !!opts.disableGoogleAnalytics;
   var disableDonations = !!opts.disableDonations;
   var iframeHost = opts.iframeHost !== undefined ? opts.iframeHost : 'https://july23.battleforthenet.com';
-  var language = 'en';
-
-  // spanish is specified or no language is set and browser is set to spanish
-  if (opts.language === 'es' || (!opts.language && navigator && navigator.language.match(/^es/))) {
-    language = 'es';
-  }
 
   var stylesToReset = {};
 
@@ -69,13 +63,6 @@
 
   function getIframeSrc() {
     var src = iframeHost + '/?';
-
-    // if (language === 'en') {
-    //   src += '/?';
-    // }
-    // else {
-    //   src += '/index-' + language + '.html?';
-    // }
 
     if (org) {
       src += 'org=' + encodeURIComponent(org) + '&';
