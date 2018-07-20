@@ -243,10 +243,10 @@ export default {
 
         if (rep) {
           this.$store.commit('setRep', rep)
-          this.$router.push(`/rep?id=${rep.bioguide_id}`)
+          this.$router.push({ name: 'rep', query: { id: rep.bioguide_id } })
         }
         else {
-          this.$router.push('/call')
+          this.$router.push({ name: 'call' })
         }
       }
       catch (err) {
@@ -258,17 +258,11 @@ export default {
     async fetchRep() {
       try {
         const address = `${this.address} ${this.zipCode}`
-        const { data } = await axios.get(`https://07myr1bkfa.execute-api.us-east-1.amazonaws.com/v1/reps?address=${encodeURIComponent(address)}`)
-
-        if (!data.rep || !data.rep.bioguide_id) {
-          throw new Error("Missing rep data!")
-        }
-
-        const response = await axios.get(`https://data.battleforthenet.com/scoreboard/${data.rep.bioguide_id}.json`)
-        return response.data
+        const { data } = await axios.get(`https://07myr1bkfa.execute-api.us-east-1.amazonaws.com/v1/rep-scoreboard?address=${encodeURIComponent(address)}`)
+        return data
       }
       catch (error) {
-        return {}
+        return null
       }
     }
   }
