@@ -1,8 +1,8 @@
 {
   "name": "july23-widget",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "Ken Mickles <ken@37i.net>",
+  "description": "July 23, 2018 day of action widget",
+  "author": "Fight for the Future <team@fightforthefuture.org>",
   "private": true,
   "scripts": {
     "dev": "nuxt",

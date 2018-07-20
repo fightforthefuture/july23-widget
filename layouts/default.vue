@@ -121,7 +121,6 @@ body {
 
 .container {
   width: 600px;
-  margin: auto;
   background: #241a46;
   border-radius: $border-radius;
   padding: 3rem;
