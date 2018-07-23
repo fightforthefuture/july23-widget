@@ -62,7 +62,7 @@
         <ScoreboardPhoto :rep="rep" />
         <div class="buttons">
           <nuxt-link to="/call" class="btn btn-cta" @click="$trackClick('call_button')">{{ $lt('call_button', 'against') }}</nuxt-link>
-          <a href="https://www.battleforthenet.com/map/" target="_blank" class="btn" @click="$trackClick('events_button', 'against')">{{ $lt('events_button') }}</a>
+          <a href="https://actionnetwork.org/forms/sign-up-to-attend-an-event-during-august-recess-to-help-save-net-neutrality/" target="_blank" class="btn" @click="$trackClick('events_button', 'against')">{{ $lt('events_button') }}</a>
           <a :href="org.donateLink" target="_blank" class="btn" @click="$trackClick('donate_button', 'against')" v-if="donationsEnabled">{{ $lt('donate_button') }}</a>
         </div>
       </div>
